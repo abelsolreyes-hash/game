@@ -5,36 +5,26 @@ const FILES_TO_CACHE = [
     "/index.html",
     "/menu.css",
     "/menu.js",
-    "/img/logo.png",
-    "/img/icon-192.png",
-    "/img/icon-512.png",
 
     // Cinnamo Fly
     "/cinnamo-fly/index.html",
     "/cinnamo-fly/fly.css",
     "/cinnamo-fly/fly.js",
-    "/cinnamo-fly/img/cinnamo.png",
 
     // Pastel Memory
     "/pastel-memory/index.html",
     "/pastel-memory/memory.css",
     "/pastel-memory/memory.js",
-    "/pastel-memory/img/card1.png",
-    "/pastel-memory/img/card2.png",
 
     // Snoopy Car Run
     "/snoopy-car-run/index.html",
     "/snoopy-car-run/run.css",
     "/snoopy-car-run/run.js",
-    "/snoopy-car-run/img/snoopy.png",
 
     // Bubble Reflex
     "/bubble-reflex/index.html",
     "/bubble-reflex/bubble.css",
-    "/bubble-reflex/bubble.js",
-    "/bubble-reflex/img/bubble1.png",
-    "/bubble-reflex/img/bubble2.png"
-    // Agrega aquí más archivos si tienes otros juegos
+    "/bubble-reflex/bubble.js"
 ];
 
 // Instalación y cache inicial
