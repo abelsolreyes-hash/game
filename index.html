@@ -55,11 +55,27 @@
     <p>© 2025 Mirai Games</p>
 </footer>
 
-<!-- JS -->
 <script src="menu.js"></script>
 
 <!-- Registro del Service Worker -->
 <script>
+function irAJuego(num) {
+    switch(num) {
+        case 1:
+            window.location.href = "cinnamo-fly/index.html";
+            break;
+        case 2:
+            window.location.href = "pastel-memory/index.html";
+            break;
+        case 3:
+            window.location.href = "snoopy-car-run/index.html";
+            break;
+        case 4:
+            window.location.href = "bubble-reflex/index.html";
+            break;
+    }
+}
+
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js')
     .then(() => console.log('Service Worker registrado'))
