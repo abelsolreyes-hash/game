@@ -1,9 +1,0 @@
-{
-  "name": "Multi Games",
-  "short_name": "Games",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ff0080",
-  "orientation": "portrait"
-}
