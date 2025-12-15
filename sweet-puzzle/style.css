@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+.puzzle-container {
+    display: grid;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 90vw;
+    gap: 2px;
+}
+
+.tile {
+    cursor: pointer;
+    background-color: #ffe4e1;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    transition: all 0.2s ease;
+}
+
+.tile.empty {
+    background-color: #fff0f5;
+}
+
+.tile canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+.gameover, #startScreen {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}

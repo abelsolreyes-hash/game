@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Multi Games</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>Multi Games</h1>
+    <p>Elige tu minijuego</p>
+</header>
+
+<main class="menu-container">
+
+    <div class="game-card" onclick="irAJuego(1)">
+        <h2>Cinnamo Fly</h2>
+        <p>Vuela entre nubes</p>
+        <p id="score1" class="score">Récord: 0</p>
+    </div>
+
+    <div class="game-card" onclick="irAJuego(2)">
+        <h2>Pastel Memory</h2>
+        <p>Pon a prueba tu memoria</p>
+        <p id="score2" class="score">Récord: 0</p>
+    </div>
+
+    <div class="game-card" onclick="irAJuego(3)">
+        <h2>Snoopy Car Run</h2>
+        <p>Esquiva coches con Snoopy</p>
+        <p id="score3" class="score">Récord: 0</p>
+    </div>
+
+    <div class="game-card" onclick="irAJuego(4)">
+        <h2>Bubble Reflex</h2>
+        <p>Rebota las burbujas</p>
+        <p id="score4" class="score">Récord: 0</p>
+    </div>
+
+    <div class="game-card locked" id="game6">
+        <h2>Surprise Land</h2>
+        <p>Bloqueado 🔒</p>
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2025 Mirai Games</p>
+</footer>
+
+<script src="menu.js"></script>
+</body>
+</html>

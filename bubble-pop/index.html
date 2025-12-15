@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bubble Reflex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Bubble Reflex</h1>
+
+<canvas id="gameCanvas"></canvas>
+
+<div id="gameOverScreen" class="gameover hidden">
+    <h2>Game Over</h2>
+    <p id="finalScore"></p>
+    <p id="bestScore"></p>
+    <button onclick="reiniciar()">Reintentar</button>
+    <button onclick="volverMenu()">Menú</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

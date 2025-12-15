@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet Puzzle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Sweet Puzzle</h1>
+
+<div id="startScreen">
+    <label for="difficulty">Dificultad (filas x columnas): </label>
+    <select id="difficulty">
+        <option value="3">3x3</option>
+        <option value="4">4x4</option>
+        <option value="5">5x5</option>
+        <option value="6">6x6</option>
+        <option value="7">7x7</option>
+        <option value="8">8x8</option>
+        <option value="9">9x9</option>
+        <option value="10">10x10</option>
+    </select>
+    <button onclick="iniciarJuego()">Iniciar Juego</button>
+</div>
+
+<div id="puzzleContainer" class="puzzle-container"></div>
+
+<div id="gameOverScreen" class="gameover hidden">
+    <h2>¡Completado!</h2>
+    <p id="finalScore"></p>
+    <button onclick="reiniciar()">Reiniciar</button>
+    <button onclick="volverMenu()">Menú</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

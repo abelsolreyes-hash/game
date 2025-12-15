@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #ffeef5;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+canvas {
+    width: 100%;
+    max-width: 360px;
+    aspect-ratio: 360 / 500;
+    background: #fff;
+    border: 2px solid #e6cfff;
+    touch-action: none;
+}
+
+.controls {
+    margin-top: 8px;
+}
+
+.controls button {
+    font-size: 22px;
+    padding: 10px 16px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: none;
+    background: #e6cfff;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.overlay button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.night {
+    background: #000;
+}

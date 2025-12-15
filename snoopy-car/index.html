@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Snoopy Car Run</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Snoopy Car Run</h1>
+
+<div id="startScreen" class="overlay">
+    <h2>🚗 Snoopy Car Run</h2>
+    <button onclick="iniciarJuego()">Iniciar</button>
+</div>
+
+<canvas id="gameCanvas"></canvas>
+
+<div class="controls">
+    <button onclick="moverIzquierda()">⬅</button>
+    <button onclick="togglePause()">⏸</button>
+    <button onclick="moverDerecha()">➡</button>
+</div>
+
+<div id="gameOverScreen" class="overlay hidden">
+    <h2>Game Over</h2>
+    <p id="finalScore"></p>
+    <p id="bestScore"></p>
+    <button onclick="reiniciar()">Reintentar</button>
+    <button onclick="volverMenu()">Menú</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
