@@ -1,30 +1,30 @@
 const CACHE_NAME = "multi-games-cache-v1";
 
 const FILES_TO_CACHE = [
-    "/",
-    "/index.html",
-    "/menu.css",
-    "/menu.js",
+    "./",
+    "./index.html",
+    "./menu.css",
+    "./menu.js",
 
     // Cinnamo Fly
-    "/cinnamo-fly/index.html",
-    "/cinnamo-fly/fly.css",
-    "/cinnamo-fly/fly.js",
+    "./cinnamo-fly/index.html",
+    "./cinnamo-fly/fly.css",
+    "./cinnamo-fly/fly.js",
 
     // Pastel Memory
-    "/pastel-memory/index.html",
-    "/pastel-memory/memory.css",
-    "/pastel-memory/memory.js",
+    "./pastel-memory/index.html",
+    "./pastel-memory/memory.css",
+    "./pastel-memory/memory.js",
 
     // Snoopy Car Run
-    "/snoopy-car-run/index.html",
-    "/snoopy-car-run/run.css",
-    "/snoopy-car-run/run.js",
+    "./snoopy-car-run/index.html",
+    "./snoopy-car-run/run.css",
+    "./snoopy-car-run/run.js",
 
     // Bubble Reflex
-    "/bubble-reflex/index.html",
-    "/bubble-reflex/bubble.css",
-    "/bubble-reflex/bubble.js"
+    "./bubble-reflex/index.html",
+    "./bubble-reflex/bubble.css",
+    "./bubble-reflex/bubble.js"
 ];
 
 // Instalación y cache inicial
