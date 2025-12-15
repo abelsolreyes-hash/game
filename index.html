@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <title>Multi Games</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="menu.css">
 
     <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json">
-
-    <!-- Icono para navegadores -->
-    <link rel="icon" href="img/logo.png" type="image/png">
 </head>
 <body>
 
@@ -61,7 +58,7 @@
 <!-- JS -->
 <script src="menu.js"></script>
 
-<!-- Registro del Service Worker para PWA -->
+<!-- Registro del Service Worker -->
 <script>
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js')
